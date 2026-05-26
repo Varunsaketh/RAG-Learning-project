@@ -1,0 +1,14 @@
+The Landscape of Artificial Intelligence: Spheres and Domains
+
+Artificial Intelligence (AI) is an expansive, multidisciplinary umbrella field of computer science dedicated to creating systems capable of performing tasks that typically require human intelligence. These tasks include visual perception, speech recognition, decision-making, and language translation. The history of AI formally began in 1956 at the Dartmouth Summer Research Project, organized by John McCarthy, Marvin Minsky, Nathaniel Rochester, and Claude Shannon, where the term "Artificial Intelligence" was first coined.
+
+The AI landscape is broadly categorized into two types:
+1. Narrow AI (Weak AI): Systems designed and trained for a specific task, such as virtual assistants, facial recognition software, or recommendation engines. All current AI systems in existence today are Narrow AI.
+2. General AI (Strong AI / AGI): A theoretical form of AI where a machine possesses the ability to understand, learn, and apply its intelligence to any intellectual problem that a human being can.
+
+Within the massive ecosystem of AI, several distinct sub-fields coexist:
+- Machine Learning (ML): A method of data analysis where algorithms learn inductively from data patterns rather than relying on explicit, hard-coded rules.
+- Natural Language Processing (NLP): The domain focused on enabling computers to understand, interpret, generate, and manipulate human languages. It powers modern Large Language Models (LLMs).
+- Computer Vision: The field that trains machines to capture, process, and interpret visual information from the world, enabling automated medical imaging, surveillance, and autonomous driving.
+- Robotics: The integration of AI with physical engineering to create autonomous agents capable of interacting with the physical world.
+- Generative AI: A modern frontier focused on models (like GANs and Diffusion models) that can generate entirely new content, including text, images, music, and synthetic data, based on the patterns they observed during training.

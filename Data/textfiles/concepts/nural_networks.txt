@@ -1,0 +1,12 @@
+Artificial Neural Networks: Architecture and Mechanics
+
+Artificial Neural Networks (ANNs) are computational models inspired by the biological structure of the human brain. The fundamental building block of an ANN is the artificial neuron, or perceptron. Each neuron receives multiple inputs, multiplies each input by a specific "weight" (which dictates its importance), adds them all together along with a "bias" value, and passes the total sum through an activation function. The activation function determines whether and to what extent the neuron should fire, introducing non-linearity into the network, which allows it to solve highly complex, non-linear problems. Common activation functions include ReLU (Rectified Linear Unit), Sigmoid, and Tanh.
+
+A standard feedforward neural network is organized into distinct layers:
+1. The Input Layer: Receives the raw data variables.
+2. The Hidden Layers: One or more layers that extract features and patterns from the data.
+3. The Output Layer: Produces the final prediction, such as a probability score or a numerical value.
+
+The core mechanism behind training a neural network consists of two main phases: forward propagation and backpropagation. During forward propagation, input data travels through the network, layer by layer, to generate an output. Once the output is produced, the network calculates the error using a loss function. 
+
+During backpropagation, the network works in reverse. It uses the mathematical chain rule to calculate the partial derivatives of the loss function with respect to every weight and bias in the system. These gradients indicate the direction and magnitude by which the weights must be adjusted to reduce the error. An optimization algorithm then updates the weights based on a set learning rate, which controls how large of a step the model takes toward the optimal solution. Over millions of iterations, these weights fine-tune themselves until the network can make highly accurate predictions on unseen data.
