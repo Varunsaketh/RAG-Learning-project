@@ -29,7 +29,8 @@ class pdftodocument:
         return pdfdocument
     
 pdffolder = pdftodocument("data/pdf_files/corefiles")
-pdffolder.foldertopdf()
+corepdf = pdffolder.foldertopdf()
 pdffolder2 = pdftodocument("data/pdf_files/platformfiles")
-pdffolder2.foldertopdf()
+platformpdf = pdffolder2.foldertopdf()
+pdfdocuments = corepdf + platformpdf
 print("PDF data loading module executed successfully.")

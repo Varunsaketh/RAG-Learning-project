@@ -19,6 +19,6 @@ class exceltodocument:
        return exceldoc
 
 sol = exceltodocument("Data/excelfiles/python librearies.xlsx")
-sol.load_excel()
+exceldocuments = sol.load_excel()
 print("Excel data loading module executed successfully.")
 
