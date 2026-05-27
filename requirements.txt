@@ -7,3 +7,6 @@ langchain-text-splitters
 ipykernel
 spacy
 nltk
+pandas
+numpy
+openpyxl
