@@ -1,3 +1,9 @@
+'''
+this may take some time to load because it should travel to loading teh start of pipe line and go step by step file by file and load to vectorDB
+1. we imported chromadb and uuid for creating collection and unique ids for the documents
+2.embeddings for the chromadb only accepts in the code in list[list[str]] it can be and ndlist but the sentence_tansformers embeddings model creates it as a numpy arrays 
+3. we used PersistentClinet tahn the normal one because the vectors can be stored in RAM and at the given path it reduces each time load and stress caused on CPU 
+'''
 import chromadb
 import uuid
 from codes.data_chunkinng.textsplitter import char_chunks, space_chunks, nltk_chunks
