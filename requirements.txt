@@ -10,4 +10,6 @@ nltk
 pandas
 numpy
 openpyxl
-langchain-google-genai
+scikit-learn
+sentence-transformers
+chromadb
