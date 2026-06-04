@@ -73,7 +73,7 @@ RAGLearning/
 
 ## Workflow
 
-
+```
 Documents
     ↓
 Load Data
@@ -94,7 +94,7 @@ Similarity Search
     ↓
 Relevant Chunks Retrieved
 
-
+```
 ---
 
 ## Technologies Used
