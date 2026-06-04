@@ -1,3 +1,13 @@
+'''
+This code is responsible for handling user queries, generating embeddings for the queries, and retrieving relevant information from the ChromaDB collections based on the generated embeddings.
+1. we used path liberary to get abd extract the path for the retrivel pipeline
+2 working of chromadb
+-> needs to connect to a client to access the database
+-> we can create collections in the database to store different types of data
+-> we can query the collections using the query method, which takes in the query embeddings and the number of results to return
+-> we can also specify the collection name to query from, which allows us to retrieve relevant information from specific collections based on the type of query we have.
+-> we gave an n value using wich it extracted top 5 vectors using cosine simalrity and returned the results in the form of a dictionary which contains the ids, metadatas and documents of the retrieved results.
+'''
 from sentence_transformers import SentenceTransformer
 import chromadb
 from pathlib import Path
